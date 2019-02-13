@@ -24,7 +24,7 @@ spec:
         command: []
         env: []
         envFrom: []
-        image: "vromero/activemq-artemis"
+        image: "vromero/activemq-artemis:2.6.1-alpine"
         imagePullPolicy: "Always"
         name: "activemq-artemis-deployment"
         ports:
