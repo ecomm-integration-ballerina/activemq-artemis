@@ -1,0 +1,39 @@
+---
+apiVersion: "extensions/v1beta1"
+kind: "Deployment"
+metadata:
+  annotations: {}
+  finalizers: []
+  labels:
+    app: "activemq-artemis"
+  name: "activemq-artemis-deployment"
+  namespace: "default"
+  ownerReferences: []
+spec:
+  replicas: 1
+  template:
+    metadata:
+      annotations: {}
+      finalizers: []
+      labels:
+        app: "activemq-artemis"
+      ownerReferences: []
+    spec:
+      containers:
+      - args: []
+        command: []
+        env: []
+        envFrom: []
+        image: "vromero/activemq-artemis"
+        imagePullPolicy: "Always"
+        name: "activemq-artemis-deployment"
+        ports:
+        - containerPort: 5672
+          name: amqp        
+        volumeMounts: []
+      hostAliases: []
+      imagePullSecrets: []
+      initContainers: []
+      nodeSelector: {}
+      tolerations: []
+      volumes: []
