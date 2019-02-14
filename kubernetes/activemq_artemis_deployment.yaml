@@ -29,7 +29,7 @@ spec:
         name: "activemq-artemis-deployment"
         ports:
         - containerPort: 61616
-          name: amqp        
+          name: jms        
         volumeMounts: []
       hostAliases: []
       imagePullSecrets: []
