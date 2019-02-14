@@ -28,7 +28,7 @@ spec:
         imagePullPolicy: "Always"
         name: "activemq-artemis-deployment"
         ports:
-        - containerPort: 5672
+        - containerPort: 61616
           name: amqp        
         volumeMounts: []
       hostAliases: []
