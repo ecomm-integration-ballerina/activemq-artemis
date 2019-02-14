@@ -13,8 +13,8 @@ spec:
   externalIPs: []
   loadBalancerSourceRanges: []
   ports:
-  - port: 5672
-    name: amqp              
+  - port: 61616
+    name: jms              
   selector:
     app: "activemq-artemis"
   type: "NodePort"
